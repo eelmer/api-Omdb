@@ -182,4 +182,9 @@ public class OmdbApi {
 
         return result;
     }
+//	public static void main(String[] args) {
+//		OmdbApi omdb = new OmdbApi();
+//		SearchResults results = omdb.search(new OmdbBuilder().setSearchTerm("Star Wars").build());
+//		OmdbVideoFull result = omdb.getInfo(new OmdbBuilder().setImdbId("tt0083658"));
+//	}
 }
